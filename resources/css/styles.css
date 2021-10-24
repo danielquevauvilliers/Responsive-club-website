@@ -1,7 +1,27 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #website {
   display: none;
+}
+
+#landing-screen {
+  display: flex;
+  background-image: url("../images/landing-page.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1200px;
+  justify-content: center;
+}
+
+#hOne {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 50%;
 }
