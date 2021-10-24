@@ -8,8 +8,26 @@
   <title>MyTown Chess Club</title>
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <section id="landing-screen">
+    <h1 id="hOne">Click Here!</h1>
+  </section>
+  <section id="website">
+    <header></header>
+    <main>
+      <h1>Hello World!</h1>
+    </main>
+    <footer></footer>
+  </section>
+<script>
+  let landingScreen = document.getElementById("landing-screen");
+  let website = document.getElementById("website");
+  let showWebsite = function() {
+    landingScreen.style.display = "none";
+    website.style.display = "block";
+  }
+
+  document.getElementById("hOne").addEventListener("click", showWebsite);
+
+</script>
 </body>
 </html>
