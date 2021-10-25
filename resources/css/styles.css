@@ -1,8 +1,19 @@
+/*
+font-family: 'EB Garamond', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Almendra', serif;
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+html {
+  font-size: 16px;
 }
 
 #website {
@@ -19,9 +30,35 @@
   justify-content: center;
 }
 
-#hOne {
-  background-color: black;
+#landing-screen h1 {
+  background-color: rgba(42, 24, 10, 0.7);
   color: white;
   position: absolute;
-  top: 50%;
+  top: 10%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  border: 0.2rem white inset;
+}
+
+#landing-screen h1 span {
+  font-family: 'Almendra', serif;
+  font-size: 3rem;
+}
+
+#hTwo {
+  background-color: rgba(42, 24, 10, 0.7);
+  color: white;
+  position: absolute;
+  top: 60%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+
+#hTwo:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgba(42, 24, 10, 0.7);
 }
