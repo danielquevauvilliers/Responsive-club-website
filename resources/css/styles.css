@@ -58,6 +58,10 @@ li {
   padding: 3px
 }
 
+a {
+  text-decoration: none;
+}
+
 /*
 #landing-screen h1 {
   position: absolute;
@@ -118,8 +122,26 @@ main {
   grid-template: repeat(36, 1fr)/repeat(12, 1fr);
   border: 1px solid red;
   height: 3240px;
-  grid-gap: 10px 20px;
+  grid-gap: 30px 20px;
   padding: 20px;
+}
+
+.section {
+  position: relative;
+}
+.anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -116px;
+  left: 0;
+  visibility: hidden;
+}
+
+article {
+  margin-top: 15px;
 }
 
 #president-message {
@@ -128,10 +150,28 @@ main {
   overflow-y: auto;
 }
 
-#junior-championship {
-  grid-area: 5/ 1/ span 4/ span 8;
+#news {
+  grid-area: 5/ 1/ span 12/ span 8;
   padding: 3px;
   overflow-y: auto;
+}
+
+#junior-championship img {
+  width: 31%;
+  height: auto;
+}
+
+#national-championship img {
+  width: 25%;
+  max-width: 150px;
+  float: right;
+  margin: 9px;
+}
+
+#activities-covid img {
+  width: 30%;
+  float: left;
+  margin: 9px;
 }
 
 #next-tournament {
