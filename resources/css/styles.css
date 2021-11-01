@@ -66,7 +66,7 @@ h1 {
   border: 0.2rem white inset;
 }
 
-h2, h3 {
+h2, h3, h4 {
   text-align: left;
   font-family: 'Noto Serif', serif;
   padding: 3px;
@@ -240,6 +240,34 @@ aside {
   background-color: black;
 }
 
+#gallery {
+  grid-area: 17/ 1/ span 12/ span 12;
+  overflow-y: auto;
+}
+
+.gallery {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 1400px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: 300px;
+  height: auto;
+  margin: 3px;
+}
+
+#outdoor, #collection {
+  background-color: #B67BFE;
+  color: black;
+}
+
 #social-media {
   grid-area: 1/ 9/ span 2/ span 4;
   text-align: left;
@@ -253,5 +281,11 @@ aside {
   grid-area: 6/ 9/ span 4/ span 4;
   overflow-y: auto;
 }
+
+#club-champions {
+  grid-area: 10/ 9/ span 4/ span 4;
+  overflow-y: auto;
+}
+
 
 
