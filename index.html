@@ -23,12 +23,21 @@
       <header>
         <h1>Mytown Chess Club</h1>
         <nav>
-          <ul>
+          <ul id="horiz-menu">
             <li><a href="#anchor1">President's Message</a></li>
             <li><a href="#anchor2">News</a></li>
             <li><a href="#anchor3">Gallery</a></li>
             <li><a href="#anchor4">Join Us</a></li>
           </ul>
+          <div class="dropdown" id="vert-menu">
+            <button class="dropbtn">Select</button>
+            <div class="dropdown-content">
+            <a href="#anchor1">President's Message</a>
+            <a href="#anchor2">News</a>
+            <a href="#anchor3">Gallery</a>
+            <a href="#anchor4">Join Us</a>
+            </div>
+          </div>
         </nav>
       </header>
       <main>
@@ -170,6 +179,12 @@
             <textarea placeholder="Provide us with a short description of you and why you want to join our club."></textarea>
             <input type="submit" value="Submit Message" id="button"/>
           </form>
+          <br>
+          <br>
+          <br>
+          <h3>Join us on social media:</h3>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
         </article>
         <aside id="social-media">
           <h2>Join us on social media:</h2>
