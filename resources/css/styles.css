@@ -286,6 +286,7 @@ aside {
   border: 1px #fe9540 solid;
   border-radius: 5px;
   text-align: left;
+  overflow-y: auto;
 }
 
 input, textarea {
