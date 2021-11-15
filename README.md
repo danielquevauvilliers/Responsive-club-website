@@ -16,5 +16,5 @@ The following components were used to build the website:
 * JavaScript
 * Fonts from [Google Fonts API](https://fonts.google.com/)
 * Free project images from [Unsplash](https://unsplash.com/)
-## Link to the webpage
+## Link to the website
 [Click Here](https://danielquevauvilliers.github.io/Responsive-club-website/)
